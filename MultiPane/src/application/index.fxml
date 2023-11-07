@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.IndexController">
+   <top>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="139.0" layoutY="100.0" text="Vélo de ville" />
+            <Label layoutX="436.0" layoutY="100.0" text="Vélo de course" />
+            <ImageView fx:id="imgBikeCity" fitHeight="150.0" fitWidth="200.0" layoutX="71.0" layoutY="133.0" onMouseClicked="#goToDetailCity" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="asset/ville/velo_ville_rouge.jpg" />
+
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgBikeRace" fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="125.0" onMouseClicked="#goToDetailRace" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="asset/course/velo_course_rouge.jpg" />
+
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

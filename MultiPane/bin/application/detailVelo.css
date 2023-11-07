@@ -1,0 +1,27 @@
+.AnchorPane {
+    -fx-background-color: #1d1d1d;
+}
+
+.button {
+    -fx-background-radius: 30; /* Pour rendre les boutons ronds /
+}
+
+.button:selected {
+    -fx-scale-x: 1.1; / Agrandir en largeur /
+    -fx-scale-y: 1.1; / Agrandir en hauteur /
+    -fx-border-color: red; / Couleur de la bordure lorsqu'un bouton est sÃ©lectionnÃ© /
+    -fx-border-width: 2; / Ã‰paisseur de la bordure */
+}
+
+
+#colorThree {
+    -fx-background-color: rgb(135,206,235);
+}
+
+#colorOne {
+    -fx-background-color: rgb(231, 231, 0);
+}
+
+#colorTwo {
+    -fx-background-color: rgb(218, 0, 0);
+}
